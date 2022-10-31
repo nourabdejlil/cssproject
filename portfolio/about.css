@@ -1,0 +1,111 @@
+body{
+    background-color:#b2cdc0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #94B4A4;
+    display: flex;
+}
+ul{
+    display: flex;
+    margin-left: 65%;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+nav a{
+    color: black;
+    padding-left: 0px;  
+    text-decoration: none; 
+}
+nav a:hover{
+    color: white;
+}
+nav h1{
+    color: white;
+    padding-left: 60px ;
+    margin: 10px;
+}
+section{
+    margin-bottom: 150px;
+}
+section h1{
+    color: bisque;
+    font-family: monospace;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    padding-top: 140px;
+    padding-bottom: 50px ;
+}
+section img{
+    padding-left: 10px;
+}
+section h4{
+    text-align: center;
+    color: black;
+    padding-bottom: 50px;
+    font-size: 20px
+    
+}
+section h4:hover{
+    color: bisque;
+}
+
+.img{
+    padding-top: 25px;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(72, 70, 70);
+    display:flex;
+    justify-content: space-between;
+}
+
+footer h1{
+    color: rgb(89, 121, 89);
+    margin-left: 20px;
+    padding-top: 10px;
+    font-family: 'Prompt', sans-serif; ;
+}
+
+footer h3{
+    color: white;
+    margin-left: 30px;
+    padding-top: 10px;
+    font-family: 'Prompt'
+}
+
+footer .info{
+    margin-bottom: 10px;
+}
+
+footer .contact{
+    margin-top: 70px;
+}
+
+.contact a{
+    text-decoration: none;
+}
+
+.contact a img{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.desgined h3{
+    margin-right: 15px;
+    margin-top: 70px;
+   font-family: 'prompt' ;
+}
